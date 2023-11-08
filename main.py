@@ -10,7 +10,6 @@ BROWSERLESS_API_KEY = 'your key'
 openai.api_key = 'your key'
 os.environ["REPLICATE_API_TOKEN"] = "your key"
 
-
 def scrape_website(url: str):
     headers = {'Cache-Control': 'no-cache', 'Content-Type': 'application/json'}
     data = {"url":url}
